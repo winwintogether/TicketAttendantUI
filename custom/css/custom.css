@@ -1,0 +1,159 @@
+#logo_image{
+	/*transform: translateY(40px) rotate(0deg);
+    transition: all ease .5s;
+    */
+}
+.top-space{
+	height:50px;
+	background-image: url(../images/top-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.ms-hero.ms-hero-black{
+	background-image: url(../images/header-back.png) !important;
+}
+.ms-navbar-custom{
+    background-color: #010101;
+}
+
+.nav-item > a:before{
+	background-color: rgb(70,94,128) !important;
+}
+.nav-item.dropdown.show>a:focus{
+	color:#fff !important;
+}
+
+.dropdown-menu li{
+	background-color: rgba(86,74,125,0.8) !important;
+}
+
+.dropdown-item{
+	color:#fff !important;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #685c8b;
+}
+.dropdown-item:focus{
+	background-color: rgba(86,74,125,0.3) !important;
+}
+.dropdown-item:hover{
+	background-color: rgba(86,74,125,1) !important;
+}
+
+
+.carousel-header{
+	padding: 22rem 0 17rem !important;
+}
+.carousel-header-large-text{
+	font-size: 50px !important;
+	font-weight: bolder;
+}
+.carousel-header-small-text{
+	width: 70% !important;
+	margin: 0 auto;
+}
+.fixed-top{
+	height: 80px;
+	padding-top: 30px;
+}
+.carousel-indicators li{
+	vertical-align: top;
+    display: inline-block;
+    background-color: #ead3d3  !important;
+    border-color:  #ead3d3  !important;
+    height: 5px !important;
+    width: 20px !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+    border-radius: 2px !important;
+    cursor: pointer !important;
+}
+.carousel-indicators li.active{
+    border-color: #ca53e2  !important;
+    background-color: #ca53e2  !important;
+}
+.color-ticket-title{
+	color:#445c7f;
+	font-weight: 400;
+}
+.color-main{
+	color: #9e5dab !important;
+}
+
+.custom-underline{
+	width: 90px;
+	margin:0 auto;
+	padding-bottom:40px;
+	border-color: #cf84de;
+	border-width: 3px
+
+}
+
+.custom-circle-image{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	border: solid 5px #fff;
+	margin-left:50px;
+	margin-right: 20px;
+}
+
+.custom-subject{
+	font-size: 50px !important;
+	font-weight: 400;
+	margin-bottom:25px;
+}
+
+.ticket-image{
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ticket-detail{
+	margin:0 auto;
+	width: 80%;
+}
+
+.ms-hero-img-benefies{
+	background-image: url(../images/benefits.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.benefits-content{
+	width:70%;
+	margin:0 auto;
+}
+
+
+@media (min-width: 768px) { 
+ .btn-navbar-menu{
+ 	display: none !important;
+ }
+ 
+}
+@media (max-width: 767px) { 
+  .top-space{
+  	display: none;
+  }
+  #logo_image{
+  	width: 45px !important;
+  	border: solid 1px #fff;
+  	border-radius: 50%
+  }
+  .carousel-header-large-text{
+	font-size: 35px !important;
+  }
+  .carousel-header .carousel-control{
+  	display: none !important;
+  }	
+  .carousel-header{
+	padding: 10rem 0 10rem !important;
+	}
+	.fixed-top{
+	height: 50px;
+	padding-top: 0px;
+	}
+}

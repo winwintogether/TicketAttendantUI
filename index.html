@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333">
+    <title>Ticket Attendant</title>
+    <meta name="description" content="Material Style Theme">
+    <link rel="shortcut icon" href="assets/img/favicon.png?v=3">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/preload.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.light-blue-500.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="custom/css/custom.css">
+    
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="ms-site-container">
+      <div class="top-space"></div>
+      <nav class="navbar navbar-expand-md  navbar-static ms-navbar ms-navbar-custom navbar-mode">
+        <div class="container container-full">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img id="logo_image" src="custom/images/Logo.png" alt="..."/>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="ms-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown active">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TASuite
+                </a>
+              </li>
+               <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AutoPilot
+                </a>
+              </li>
+               <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ConsignmentCloud
+                </a>
+              </li>
+               <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+                   <i class="zmdi zmdi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                 FAQs</a>
+                  </li>
+                   <li>
+                    <a class="dropdown-item" href="#">
+                   Pricing</a>
+                  </li>
+                   <li>
+                    <a class="dropdown-item" href="#">
+                    Market Research</a>
+                  </li>
+                   <li>
+                    <a class="dropdown-item" href="#">
+                    Log In</a>
+                  </li>
+                   
+                </ul>
+              </li>
+               <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-square-right fa-flip-horizontal" style="font-size: 25px; margin-right:8px; margin-top:2px"></i>Login
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link  animated fadeIn animation-delay-7"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-account-o" style="font-size: 25px; margin-right:8px; margin-top:2px"></i>Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+           <a href="javascript:void(0)" class="ms-toggle-left btn-navbar-menu">
+            <i class="zmdi zmdi-menu"></i>
+           </a> 
+        </div>
+        <!-- container -->
+      </nav>
+      <header class="ms-hero ms-hero-black mb-6">
+        <div id="carousel-header" class="carousel carousel-header slide" data-ride="carousel" data-interval="5000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-header" data-slide-to="1"></li>
+            <li data-target="#carousel-header" data-slide-to="2"></li>
+            <li data-target="#carousel-header" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                    <div class="carousel-caption">
+                      
+                      <div class="text-center">
+                        <h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+                          3 Ways to Streamline Your Business
+                        </h1>
+                        <p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                    <div class="carousel-caption">
+                      
+                      <div class="text-center">
+                        <h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+                          3 Ways to Streamline Your Business
+                        </h1>
+                        <p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                    <div class="carousel-caption">
+                      
+                      <div class="text-center">
+                        <h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+                          3 Ways to Streamline Your Business
+                        </h1>
+                        <p class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                    <div class="carousel-caption">
+                      
+                      <div class="text-center">
+                        <h1 class="color-white no-mt mb-4 animated zoomInDown animation-delay-7 carousel-header-large-text">
+                          3 Ways to Streamline Your Business
+                        </h1>
+                        <h4 class="color-white no-mt mb-4 animated flipInX animation-delay-16 carousel-header-small-text">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <!-- Controls -->
+          <a href="#carousel-header" class="btn-circle btn-circle-xs btn-circle-raised color-main left carousel-control" role="button" data-slide="prev">
+            <i class="zmdi zmdi-chevron-left"></i>
+          </a>
+          <a href="#carousel-header" class="btn-circle btn-circle-xs btn-circle-raised color-main right carousel-control" role="button" data-slide="next">
+            <i class="zmdi zmdi-chevron-right"></i>
+          </a>
+        </div>
+      </header>
+      <div class="container">
+        <section class="mb-4">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+              <div class="wow flipInX animation-delay-4">
+                  
+                <div class="text-center">
+                  <h2 class="color-ticket-title">Ticket Attendant Suite</h2>
+                  <div class="ticket-image">
+                    <img src = "custom/images/gauge.png"/>
+                  </div>
+                  <div class="ticket-detail">
+                     <p>You receive access to our software for a monthly fee</p>
+                  </div>
+                  <h4 class="color-main">More..</h4>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+              <div class="wow flipInX animation-delay-4">
+                  
+                <div class="text-center">
+                  <h2 class="color-ticket-title">Auto Pilot</h2>
+                  <div class="ticket-image">
+                    <img src = "custom/images/content-download.png"/>
+                  </div>
+                  <div class="ticket-detail">
+                     <p>You focus on your key business while we take care of your back office</p>
+                  </div>
+                  <h4 class="color-main">More..</h4>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-2">
+              <div class="wow flipInX animation-delay-4">
+                  
+                <div class="text-center">
+                  <h2 class="color-ticket-title">Consignment Cloud</h2>
+                  <div class="ticket-image">
+                    <img src = "custom/images/computer-network.png"/>
+                  </div>
+                  <div class="ticket-detail">
+                     <p>We leverage our access and volume to increase your ticket visibility</p>
+                  </div>
+                  <h4 class="color-main">More..</h4>
+                </div>
+
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+      </div>
+     
+     
+      <div class="wrap ms-hero-img-benefies ms-bg-fixed">
+        <div class="container">
+          <div class="text-center mb-4">
+            <p class="color-white custom-subject">Benefits</p>
+            <hr class="custom-underline"/>
+
+            <p class="color-light benefits-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+          </div>
+
+          <div class="row">
+             <div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+                <div class="wow flipInX animation-delay-4">
+                  <div class="text-center">
+                    <img src = "custom/images/4.png"/>
+
+                    <h4 class="color-white">Save</h4>
+                    <h4 class="color-white">Time & Money</h4>
+                  </div>
+                </div>
+             </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+                <div class="wow flipInX animation-delay-4">
+                  <div class="text-center">
+                    <img src = "custom/images/3.png"/>
+
+                    <h4 class="color-white">Gain</h4>
+                    <h4 class="color-white">Software Stability</h4>
+                  </div>
+                </div>
+             </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+                <div class="wow flipInX animation-delay-4">
+                  <div class="text-center">
+                    <img src = "custom/images/2.png"/>
+
+                    <h4 class="color-white">Receive</h4>
+                    <h4 class="color-white">Top customer Service</h4>
+                  </div>
+                </div>
+             </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-2" >
+                <div class="wow flipInX animation-delay-4">
+                  <div class="text-center">
+                    <img src = "custom/images/1.png"/>
+
+                    <h4 class="color-white">Access</h4>
+                    <h4 class="color-white">The Best Technology</h4>
+                  </div>
+                </div>
+             </div>
+          </div>
+         
+        </div>
+        <!--container -->
+      </div>
+      <section class="mt-6">
+        <div class="container">
+          <div class="text-center  mb-4">
+            <p class="custom-subject color-ticket-title">Testimonials</p>
+            <hr class="custom-underline"/>
+          </div>
+          <div id="slick-slider-custom" data-slick='{"slidesToShow": 2, "slidesToScroll": 2}'>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <div class="media">
+                    <div class="media-left media-middle">
+                     
+                        <img  src="assets/img/demo/p75.jpg" class="custom-circle-image" alt="..."> 
+
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                      &quot;Excellent customer support and technical support.
+                        Products work well all the time!&quot;
+                      </h4>
+                      
+                    </div>
+                </div>
+               
+            </div>
+
+
+            
+           
+          </div>
+        </div>
+      </section>
+
+      <aside class="ms-footbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 ms-footer-col">
+              <div class="ms-footbar-block">
+                <h3 class="ms-footbar-title">Sitemap</h3>
+                <ul class="list-unstyled ms-icon-list three_cols">
+                  <li>
+                    <a href="index.html">
+                      <i class="zmdi zmdi-home"></i> Home</a>
+                  </li>
+                  <li>
+                    <a href="page-blog.html">
+                      <i class="zmdi zmdi-edit"></i> Blog</a>
+                  </li>
+                  <li>
+                    <a href="page-blog.html">
+                      <i class="zmdi zmdi-image-o"></i> Portafolio</a>
+                  </li>
+                  <li>
+                    <a href="portfolio-filters_sidebar.html">
+                      <i class="zmdi zmdi-case"></i> Works</a>
+                  </li>
+                  <li>
+                    <a href="page-timeline_left2.html">
+                      <i class="zmdi zmdi-time"></i> Timeline</a>
+                  </li>
+                  <li>
+                    <a href="page-pricing.html">
+                      <i class="zmdi zmdi-money"></i> Pricing</a>
+                  </li>
+                  <li>
+                    <a href="page-about.html">
+                      <i class="zmdi zmdi-favorite-outline"></i> About Us</a>
+                  </li>
+                  <li>
+                    <a href="page-team2.html">
+                      <i class="zmdi zmdi-accounts"></i> Our Team</a>
+                  </li>
+                  <li>
+                    <a href="page-services.html">
+                      <i class="zmdi zmdi-face"></i> Services</a>
+                  </li>
+                  <li>
+                    <a href="page-faq2.html">
+                      <i class="zmdi zmdi-help"></i> FAQ</a>
+                  </li>
+                  <li>
+                    <a href="page-login2.html">
+                      <i class="zmdi zmdi-lock"></i> Login</a>
+                  </li>
+                  <li>
+                    <a href="page-contact.html">
+                      <i class="zmdi zmdi-email"></i> Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="ms-footbar-block">
+                <h3 class="ms-footbar-title">Subscribe</h3>
+                <p class="">Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                <form>
+                  <div class="form-group label-floating mt-2 mb-1">
+                    <div class="input-group ms-input-subscribe">
+                      <label class="control-label" for="ms-subscribe">
+                        <i class="zmdi zmdi-email"></i> Email Adress</label>
+                      <input type="email" id="ms-subscribe" class="form-control"> </div>
+                  </div>
+                  <button class="ms-subscribre-btn" type="button">Subscribe</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-7 ms-footer-col ms-footer-alt-color">
+              <div class="ms-footbar-block">
+                <h3 class="ms-footbar-title text-center mb-2">Last Articles</h3>
+                <div class="ms-footer-media">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="javascript:void(0)">
+                        <img class="media-object media-object-circle" src="assets/img/demo/p75.jpg" alt="..."> </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        <a href="javascript:void(0)">Lorem ipsum dolor sit expedita cumque amet consectetur adipisicing repellat</a>
+                      </h4>
+                      <div class="media-footer">
+                        <span>
+                          <i class="zmdi zmdi-time color-info-light"></i> August 18, 2016</span>
+                        <span>
+                          <i class="zmdi zmdi-folder-outline color-warning-light"></i>
+                          <a href="javascript:void(0)">Design</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="javascript:void(0)">
+                        <img class="media-object media-object-circle" src="assets/img/demo/p75.jpg" alt="..."> </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        <a href="javascript:void(0)">Labore ut esse Duis consectetur expedita cumque ullamco ad dolor veniam velit</a>
+                      </h4>
+                      <div class="media-footer">
+                        <span>
+                          <i class="zmdi zmdi-time color-info-light"></i> August 18, 2016</span>
+                        <span>
+                          <i class="zmdi zmdi-folder-outline color-warning-light"></i>
+                          <a href="javascript:void(0)">News</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="javascript:void(0)">
+                        <img class="media-object media-object-circle" src="assets/img/demo/p75.jpg" alt="..."> </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        <a href="javascript:void(0)">voluptates deserunt ducimus expedita cumque quaerat molestiae labore</a>
+                      </h4>
+                      <div class="media-footer">
+                        <span>
+                          <i class="zmdi zmdi-time color-info-light"></i> August 18, 2016</span>
+                        <span>
+                          <i class="zmdi zmdi-folder-outline color-warning-light"></i>
+                          <a href="javascript:void(0)">Productivity</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5 ms-footer-col ms-footer-text-right">
+              <div class="ms-footbar-block">
+                <div class="ms-footbar-title">
+                  <span class="ms-logo ms-logo-white ms-logo-sm mr-1">M</span>
+                  <h3 class="no-m ms-site-title">Material
+                    <span>Style</span>
+                  </h3>
+                </div>
+                <address class="no-mb">
+                  <p>
+                    <i class="color-danger-light zmdi zmdi-pin mr-1"></i> 795 Folsom Ave, Suite 600</p>
+                  <p>
+                    <i class="color-warning-light zmdi zmdi-map mr-1"></i> San Francisco, CA 94107</p>
+                  <p>
+                    <i class="color-info-light zmdi zmdi-email mr-1"></i>
+                    <a href="mailto:joe@example.com">example@domain.com</a>
+                  </p>
+                  <p>
+                    <i class="color-royal-light zmdi zmdi-phone mr-1"></i>+34 123 456 7890 </p>
+                  <p>
+                    <i class="color-success-light fa fa-fax mr-1"></i>+34 123 456 7890 </p>
+                </address>
+              </div>
+              <div class="ms-footbar-block">
+                <h3 class="ms-footbar-title">Social Media</h3>
+                <div class="ms-footbar-social">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <i class="zmdi zmdi-facebook"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-twitter">
+                    <i class="zmdi zmdi-twitter"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-youtube">
+                    <i class="zmdi zmdi-youtube-play"></i>
+                  </a>
+                  <br>
+                  <a href="javascript:void(0)" class="btn-circle btn-google">
+                    <i class="zmdi zmdi-google"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-instagram">
+                    <i class="zmdi zmdi-instagram"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-github">
+                    <i class="zmdi zmdi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <footer class="ms-footer">
+        <div class="container">
+          <p>Copyright &copy; Material Style 2017</p>
+        </div>
+      </footer>
+      <div class="btn-back-top">
+        <a href="#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ">
+          <i class="zmdi zmdi-long-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ms-site-container -->
+    <div class="ms-slidebar sb-slidebar sb-left sb-style-overlay" id="ms-slidebar">
+      <div class="sb-slidebar-container">
+        <header class="ms-slidebar-header">
+          <div class="ms-slidebar-login">
+            <a href="javascript:void(0)" class="withripple">
+              <i class="zmdi zmdi-account"></i> Login</a>
+            <a href="javascript:void(0)" class="withripple">
+              <i class="zmdi zmdi-account-add"></i> Register</a>
+          </div>
+          <div class="ms-slidebar-title">
+            <div class="ms-slidebar-t">
+              <span class="ms-logo ms-logo-sm">TA</span>
+              <h3>Ticket
+                <span>Attendant</span>
+              </h3>
+            </div>
+          </div>
+        </header>
+        <ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true">
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> TA Suite</a>
+          </li>
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> Auto Pilot</a>
+          </li>
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> Consignment Clound</a>
+          </li>
+          <li class="card" role="tab">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#slidebar-menu" href="#sub-resources" aria-expanded="false" aria-controls="sub-resources">
+              <i class="zmdi zmdi-home"></i> Resources</a>
+            <ul id="sub-resources" class="card-collapse collapse" role="tabpanel" aria-labelledby="sub-resources">
+              <li>
+                <a href="#">Item 1</a>
+              </li>
+            
+            </ul>
+          </li>
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> About</a>
+          </li>
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> Login</a>
+          </li>    
+          <li>
+            <a class="link" href="#">
+              <i class="zmdi zmdi-home"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+  
+        $('#slick-slider-custom').slick(
+        // {
+        //     dots: true,
+        //     arrows: false,
+        //     draggable: false,
+        //     infinite: true,
+        //     adaptiveHeight: true,
+        //     slidesToShow: 1,
+        //     slidesToScroll: 1,
+        //     autoplay: true,
+        //     autoplaySpeed: 5000,
+        // }
+        );
+
+      });
+    </script>
+  </body>
+</html>
